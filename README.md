@@ -13,4 +13,4 @@ Magazinul nostru online oferă o gamă de produse. Paginile sunt structurate pen
   
 ## 🌍 Live Demo
 🔗 [Accesează site-ul aici](https://777catalin777.github.io/Landing-Page/BayShop/BayShop.html)
-Ba
+
