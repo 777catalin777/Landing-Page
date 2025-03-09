@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//BayShop/BayShop.css">
+    <link rel="icon" type="images/x-icon" href="..//BayShop/Imagines/BayShop.ico.png">
+    <title>BayShop</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-left">
+            <h1><img src="..//BayShop/Imagines/BayShop.ico.png" alt="Logo"> BayShop</h1>
+            <h2>SUPERMARKET ONLINE</h2>
+        </div>
+
+        <form action="#" method="get" class="search-form">
+            <input type="text" placeholder="Căutare..." name="search" />
+            <button type="submit">🔍</button>
+        </form>
+
+        <div class="cart-container">
+            <button class="cart-button">
+                🛒 <span id="cart-count">0</span>
+            </button>
+            <div class="cart-content">
+                <h3>Coș de cumpărături</h3>
+                <ul id="cart-items"></ul>
+                <p class="cart-total">Total: <span id="cart-total">0</span> MDL</p>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="container">
+        <div class="section" id="produse">
+            <h2>Produse</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="..//BayShop/Imagines/Rosii Cherry.webp" alt="Roșii Cherry">
+                    <h3>Roșii cherry</h3>
+                    <p class="price">49.90 MDL</p>
+                    <button class="add-to-cart" data-name="Roșii cherry" data-price="49.90">➕ Adaugă în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="..//BayShop/Imagines/Gold Cartofi.webp" alt="Cartofi Gold">
+                    <h3>Gold Cartofi</h3>
+                    <p class="price">32.90 MDL</p>
+                    <button class="add-to-cart" data-name="Gold Cartofi" data-price="32.90">➕ Adaugă în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="..//BayShop/Imagines/Champignon alb.webp" alt="Produs 3" />
+                    <h3>Champignon alb</h3>
+                    <p class="price">21.90 MDL</p>
+                    <button class="add-to-cart" data-name="Champignon alb" data-price="21.90">➕ Adaugă în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="..//BayShop/Imagines/Salata verde.jpg" alt="Produs 4" />
+                    <h3>Salată verde</h3>
+                    <p class="price">29.90 MDL</p>
+                    <button class="add-to-cart" data-name="Salată verde" data-price="29.90">➕ Adaugă în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="..//BayShop/Imagines/Porumb dulce.jpg" alt="Produs 5" />
+                    <h3>Porumb dulce</h3>
+                    <p class="price">39.90 MDL</p>
+                    <button class="add-to-cart" data-name="Porumb dulce" data-price="39.90">➕ Adaugă în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://linella.md/public/products/c53935a1bbcbe610941e022eab91606f.webp"
+                        alt="Produs 6" />
+                    <h3>Plăcinte</h3>
+                    <p class="price">23.70 MDL</p>
+                    <button class="add-to-cart" data-name="Plăcinte" data-price="23.70">➕ Adaugă în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://linella.md/public/products/d0baa28667820900a72e90ec66884463.webp"
+                        alt="Produs 7" />
+                    <h3>Saralii cu cartofi</h3>
+                    <p class="price">25.50 MDL</p>
+                    <button class="add-to-cart" data-name="Saralii cu cartofi" data-price="25.50">➕ Adaugă în
+                        coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://linella.md/public/products/c501b4ab37e308a503326607a4a31d4e.webp"
+                        alt="Produs 8" />
+                    <h3>Biscuiți</h3>
+                    <p class="price">50 MDL</p>
+                    <button class="add-to-cart" data-name="Biscuiți" data-price="50">➕ Adaugă în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://linella.md/public/products/6d25dfef627e80e76e83695a08bd2c73.webp"
+                        alt="Produs 9" />
+                    <h3>Pulpa de pui</h3>
+                    <p class="price">49.50 MDL</p>
+                    <button class="add-to-cart" data-name="Pulpa de pui" data-price="49.50">➕ Adaugă în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://linella.md/public/products/fab427b53fc6bf4c204005b83d58050e.webp"
+                        alt="Produs 10" />
+                    <h3>Sarmale</h3>
+                    <p class="price">34.50 MDL</p>
+                    <button class="add-to-cart" data-name="Sarmale" data-price="34.50">➕ Adaugă în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://linella.md/public/products/5ade6087b78a09812d8f3f8f7e2ad749.webp"
+                        alt="Produs 11" />
+                    <h3>BY TOYS Set Politie action max</h3>
+                    <p class="price">41.90 MDL</p>
+                    <button class="add-to-cart" data-name="BY TOYS Set Politie action max" data-price="41.90">➕ Adaugă
+                        în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://linella.md/public/products/d39cc169c4930f96fdb0a49ea8d8943a.webp"
+                        alt="Produs 12" />
+                    <h3>JIANSHENG Masini autospeciale</h3>
+                    <p class="price">217 MDL</p>
+                    <button class="add-to-cart" data-name="JIANSHENG Masini autospeciale" data-price="217">➕ Adaugă în
+                        coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://linella.md/public/products/24d029e3d2db8a8c8615c29bf67893ba.webp"
+                        alt="Produs 13" />
+                    <h3>JIANSHENG Masina Police Car</h3>
+                    <p class="price">170 MDL</p>
+                    <button class="add-to-cart" data-name="JIANSHENG Masina Police Car" data-price="170">➕ Adaugă în
+                        coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="..//BayShop/Imagines/STIP Jucarie de plus Iepuras.jpg" alt="Produs 14" />
+                    <h3>STIP Jucarie de plus Iepuras 35cm* 1buc</h3>
+                    <p class="price">168 MDL</p>
+                    <button class="add-to-cart" data-name="STIP Jucarie de plus Iepuras 35cm* 1buc" data-price="168">➕
+                        Adaugă în coș</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://linella.md/public/products/dc573811e8e9d6446406d075bcdc512e.webp"
+                        alt="Produs 15" />
+                    <h3>BAMSIC Set bowling</h3>
+                    <p class="price">84.90 MDL</p>
+                    <button class="add-to-cart" data-name="BAMSIC Set bowling" data-price="84.90">➕ Adaugă în
+                        coș</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 BayShop. Toate drepturile rezervate.</p>
+    </footer>
+
+</body>
+
+<script src="../BayShop/Script.js"></script>
+
+
+</html>
