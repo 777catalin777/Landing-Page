@@ -10,7 +10,7 @@ Magazinul nostru online oferă o gamă de produse. Paginile sunt structurate pen
 
 - HTML
 - CSS
-- Java Script
+- JavaScript
   
 ## 🌍 Live Demo
 🔗 [Accesează site-ul aici](https://777catalin777.github.io/Landing-Page/BayShop/BayShop.html)
