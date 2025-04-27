@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <div>
+        <div class="header-left">
             <h1>
                 <img src="..//BayShop/Imagines/BayShop.ico.png" alt="Logo" /> BayShop
             </h1>
@@ -24,17 +24,17 @@
         </form>
 
         <div class="cart-container">
-            <button class="cart-button">🛒 <span>0</span></button>
+            <button class="cart-button">🛒 <span id="cart-count">0</span></button>
             <div class="cart-content">
                 <h3>Coș de cumpărături</h3>
                 <ul id="cart-items"></ul>
-                <p class="cart-total">Total: <span>0</span> MDL</p>
+                <p class="cart-total">Total: <span id="cart-total">0</span> MDL</p>
             </div>
         </div>
     </header>
 
     <div class="container">
-        <div class="section">
+        <div class="section" id="produse">
             <h2>Produse</h2>
             <div class="product-grid">
                 <div class="product-card">
