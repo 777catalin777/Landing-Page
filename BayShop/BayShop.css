@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 20px;
   position: relative;
@@ -38,7 +38,7 @@ header {
 .search-form button {
   padding: 10px 15px;
   background-color: white;
-  color: #4CAF50;
+  color: #4caf50;
   font-size: 16px;
   border: none;
   border-radius: 25px;
@@ -159,51 +159,6 @@ header {
   background: white;
   padding: 15px;
   width: 250px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.cart-container:hover .cart-content {
-  display: block;
-}
-
-/* Stilizare coș flotant */
-.cart-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-}
-
-.cart-button {
-  background-color: #ff9800;
-  color: white;
-  border: none;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  font-size: 22px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-}
-
-.cart-button:hover {
-  background-color: #e68900;
-  transform: scale(1.1);
-}
-
-.cart-content {
-  display: none;
-  position: absolute;
-  bottom: 80px;
-  right: 0;
-  background: white;
-  padding: 15px;
-  width: 300px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
